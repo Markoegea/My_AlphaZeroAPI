@@ -1,0 +1,92 @@
+/* Set the background color and font */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #222;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+/* Center the page content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+/* Style the arcade machine */
+.arcade {
+  background-color: black;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}
+/* Style the game board */
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 300px;
+  background-color: #555555;
+  grid-template-columns: repeat(3, 60px);
+  grid-template-rows: repeat(3, 60px);
+  gap: 4px;
+  padding: 4px;
+  border: 2px solid #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.square:hover {
+  background-color: #666;
+}
+
+.square h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

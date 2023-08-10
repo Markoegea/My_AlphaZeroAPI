@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Connect Four</title>
+{% endblock %}
+
+{% block body %}
+<div class ="board" id="board">
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/connect_four_logic.js') }}"></script>
+{% endblock %}

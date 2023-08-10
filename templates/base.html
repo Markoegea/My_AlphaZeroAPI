@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% block head %} {% endblock %}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <div class="Button-container">
+      <button class="button" id="buttonTTT">Play Tic Tac Toe</button>
+      <button class="button" id="buttonCF">Play Connect Four</button>
+    </div>
+    <div class="arcade" id="arcade">
+      {% block body %} {% endblock %}
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='js/buttons_logic.js') }}"></script>
+  {% block scripts %} {% endblock %}
+</body>
+</html>
