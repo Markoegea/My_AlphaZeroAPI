@@ -4,12 +4,15 @@ certifi==2022.12.7
 charset-normalizer==2.1.1
 click==8.1.6
 colorama==0.4.6
+coloredlogs==15.0.1
 contourpy==1.1.0
 cycler==0.11.0
 filelock==3.9.0
 Flask==2.3.2
 Flask-Session==0.5.0
+flatbuffers==23.5.26
 fonttools==4.42.0
+humanfriendly==10.0
 idna==3.4
 itsdangerous==2.1.2
 Jinja2==3.1.2
@@ -19,9 +22,13 @@ matplotlib==3.7.2
 mpmath==1.2.1
 networkx==3.0
 numpy==1.24.1
+onnxruntime==1.15.1
 packaging==23.1
 Pillow==9.3.0
+pmaz @ git+https://github.com/Markoegea/My_AlphaZero.git@13da5977362c4aae4248d6782e0e605a8fada551
+protobuf==4.24.3
 pyparsing==3.0.9
+pyreadline3==3.4.1
 python-dateutil==2.8.2
 requests==2.28.1
 six==1.16.0
