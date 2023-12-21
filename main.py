@@ -1,8 +1,8 @@
 from flask import Flask, render_template, url_for, jsonify, request, session, redirect
 from flask_session import Session
-from PMAZ import agent as Agent
-from PMAZ import game as Game
-from PMAZ import model as Model
+from pmaz import agent as Agent
+from pmaz import game as Game
+from pmaz import model as Model
 import torch
 import numpy as np
 #Runtime variables
